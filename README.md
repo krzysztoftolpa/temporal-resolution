@@ -3,3 +3,4 @@ Custom configuration of Psignifit 4 toolbox under Matlab needed to calculate tem
 
 # Adaptive procedure 
 Python adaptation of UML MATLAB Toolbox used to estimate intervals during TOJ task.
+Authors: Jan Nikadon & Mateusz Chojnowski
