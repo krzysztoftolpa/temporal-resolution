@@ -1,0 +1,318 @@
+{
+  "LED": {
+    "INT": {
+      "BEH": {
+        "MET": {
+          "min_stimuli": 0.0001,
+          "max_stimuli": 0.8,
+          "value": 0.6,
+          "method": "mean",
+          "alpha": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0001,
+            "max_value": 0.8,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      },
+      "MRI": {
+        "MET": {
+          "min_stimuli": 0.0001,
+          "max_stimuli": 0.8,
+          "value": 0.6,
+          "method": "mean",
+          "alpha": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0001,
+            "max_value": 0.8,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      }
+    },
+    "SEQ": {
+      "BEH": {
+        "MET": {
+          "min_stimuli": 1.0,
+          "max_stimuli": 150.0,
+          "value": 120.0,
+          "method": "mean",
+          "alpha": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 1,
+            "max_value": 120,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      },
+      "MRI": {
+        "MET": {
+          "min_stimuli": 1.0,
+          "max_stimuli": 150.0,
+          "value": 120.0,
+          "method": "mean",
+          "alpha": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 1,
+            "max_value": 120,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      }
+    }
+  },
+  "SND": {
+    "INT": {
+      "BEH": {
+        "MET": {
+          "min_stimuli": 0.0001,
+          "max_stimuli": 0.299,
+          "value": 0.15,
+          "method": "mean",
+          "alpha": {
+            "scale": "log",
+            "dist": "flat",
+            "min_value": 0.0001,
+            "max_value": 0.299,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      },
+      "MRI": {
+        "MET": {
+          "min_stimuli": 0.0001,
+          "max_stimuli": 0.299,
+          "value": 0.15,
+          "method": "mean",
+          "alpha": {
+            "scale": "log",
+            "dist": "flat",
+            "min_value": 0.0001,
+            "max_value": 0.299,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      }
+    },
+    "SEQ": {
+      "BEH": {
+        "MET": {
+          "min_stimuli": 1.0,
+          "max_stimuli": 150.0,
+          "value": 120.0,
+          "method": "mean",
+          "alpha": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 1,
+            "max_value": 120,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      },
+      "MRI": {
+        "MET": {
+          "min_stimuli": 1.0,
+          "max_stimuli": 150.0,
+          "value": 120.0,
+          "method": "mean",
+          "alpha": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 1,
+            "max_value": 120,
+            "mu": 0,
+            "std": 20,
+            "n": 401
+          },
+          "beta": {
+            "scale": "log",
+            "dist": "norm",
+            "min_value": 0.1,
+            "max_value": 10,
+            "mu": 0,
+            "std": 2,
+            "n": 241
+          },
+          "gamma": {
+            "value": 0.5
+          },
+          "lamb": {
+            "scale": "lin",
+            "dist": "flat",
+            "min_value": 0.0,
+            "max_value": 0.2,
+            "mu": 0,
+            "std": 0.1,
+            "n": 11
+          }
+        }
+      }
+    }
+  }
+}
